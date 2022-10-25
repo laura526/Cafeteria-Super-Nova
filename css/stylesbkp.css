@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    width:100%; 
+    max-width:1200px; 
+    margin:0px auto; 
+    display:table; 
+    position:relative;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    display: table;
+    margin-bottom: 40px;
+    font-family:'Poppins', sans-serif ;
+}
+section{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+nav{
+    width:auto; 
+    float:right;
+}
+nav{
+    background-color:     white;
+    width:                  95%;
+    height:                 80px;
+    font-family:            'Poppins', sans-serif;
+    color:                 #015351;
+}
+
+nav h2{
+    font-size:               20px;
+    float:                   left;
+    padding-left:            2%;
+    padding-top:             25px;
+}
+
+nav ul{
+    display:                flex;
+    padding-left:           25%;
+    font-size:              20px;
+}
+
+nav ul li{
+    list-style:             none;
+    padding-top:            25px;
+    margin-left:            5px;
+    color:              #015351;
+}
+
+nav ul li a{
+    padding: 10px;
+    color: #015351;
+}
+
+nav ul li:hover a{
+    font-size: 22px;
+    transition: all 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li ul{
+    visibility: hidden;
+    position: absolute;
+    background-color: #015351;
+    border: 1px solid #CCCCCC;
+    padding-left: 0%;
+}
+
+nav ul li ul li a{
+    color: whitesmoke;
+}
+
+nav ul li ul li:hover a{
+    color: #015351;
+    background-color: whitesmoke;
+}
+
+div {
+    display: inline-block;
+    
+}
+
+.imgMenu {
+    width: 30%;
+    box-shadow: 10px 10px 5px #333333;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.imgMenu:hover{
+    width: 31%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Estilos Footer_Página Principal*/
+footer {
+    width:              90%;
+    height:             50px;
+    padding-left:       5%;
+    padding-right:      5%;
+    padding-top:        20px;
+    text-align:         center;
+    background-color: white;
+    font-size:          14px;
+    font-family:        'Poppins', sans-serif;
+    color:              black;
+}
+
+footer img {
+    width: 10px;
+    margin-top: 10px; 
+    border-radius: 1%;
+}
+footer img:hover{
+    opacity: 50%;
+}
+
+.flexbox{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    align-items: baseline;
+}
+
+.flexbox div{
+    width: 100px;
+    margin: 10px;
+}
+
+
+.content {
+    margin-bottom: 25px;
+    width: 1000px;
+}
+
+.content p{
+    font-size: 20px;
+    color: rgb(255, 255, 244);
+    text-align: justify;
+    font-family:'Poppins', sans-serif ;
+}
+
+.content h2 {
+    font-size: 25px;
+    color: #000;
+    margin-left: 30px;
+}
+
+.content h1 {
+    margin-top: 25px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.tableProductos{
+    font-family:'Poppins', sans-serif ;
+    width: 185%;
+    background-color: rgba(204, 255, 240, 0.637); 
+    margin-left: 30px;
+ }
+
+ .tablemenu {
+    font-family:'Poppins', sans-serif ;
+    width: 100%;
+    background-color: rgba(204, 255, 240, 0.637); 
+ }
+
+
+
+.tableUsuarios {
+    font-family:'Poppins', sans-serif ;
+    width: 100%;
+    background-color: rgba(204, 255, 240, 0.637); 
+
+}
+
+ th, td {
+    font-family:'Poppins', sans-serif ;
+    width: 10%;
+
+    padding: 0.3em;
+ }
+
+ .caja__trasera button, .estilo{
+    padding: 10px;
+    border: 2px solid #000000;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer; /*Para que sepamos que podemos hacer click*/
+    color: black;
+    outline: none; /*Para eliminar la l[inea de color que se le hace al intentar presionarlo*/
+    transition: all 300ms;
+}
+.caja__trasera button:hover, .estilo:hover{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#containerIngresoUsuarios,
+#containerIngresoProductos{
+
+display: 			inline-block;
+height: 			410px;
+width: 				100%;
+max-width:          350px;
+margin-left:        45%;
+font-size: 			12px; 
+text-align: 		center;
+
+backdrop-filter:    blur(0px);/*Desenfoque*/
+background-color: 	#bafdfc;
+font-weight:        700;
+font-family:'Poppins', sans-serif ;
+
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+    section{max-width:95%;}
+    }
+
+@media only screen and (max-width: 980px) {
+    .content{
+        width:90%;
+    }
+    section{
+        max-width:85%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 360px) {
+    h1{font-size:20px;}
+    nav{top:47px;}
+    article{width: auto;}
+    }
+
+

@@ -1,0 +1,63 @@
+@media only screen and (max-width: 500px) {
+    /*LOGIN*/
+    .caja__trasera{
+        text-align: center;
+        padding: 0px;
+    }
+    .caja__trasera div{
+        margin: 0px;
+    }
+    .caja__trasera-register{
+        margin: 0px;
+    }
+    #container{
+        display :block;
+        width: 100%;
+    }
+    #container_login, #container_signUp, #container_olvidoContra{
+        border-radius: 0%;
+        margin-left: 0px;
+    }
+    #containerIngresoUsuarios,
+    #containerIngresoProductos{
+    margin-left:        30px;
+ 
+    
+    }
+    .caja_trasera div{
+        margin: 10px;
+        text-align: center;
+    }
+    /*INDEX PHP*/
+    nav {
+        text-align:center;
+        float: unset;
+        }
+    nav h2 {
+        font-size: 20px;
+        float: none;
+        padding-left: unset;
+        padding-top: unset;
+    }
+    nav ul{
+        padding-left: unset;
+        font-size: 16px;
+        display: flex;
+        }
+    nav ul li {
+        display: inline-block;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .flexbox{
+        width:100%;
+        margin-left: 0%;
+    }
+    /*Tablas*/
+    td{
+        display:none;
+        }
+    .showCell{
+        display:table-cell;
+        }
+  }

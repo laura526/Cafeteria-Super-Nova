@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://camonapp.com/wp-content/uploads/2017/10/Fondo_Login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*https://camonapp.com/wp-content/uploads/2017/10/Fondo_Login.jpg*/
+
+		#container{
+			font-family:        'Poppins', sans-serif;
+			display: 			flex;
+			width: 				50%;
+			height: 			200px;
+			margin:				10%; 
+			align-items: 		center;
+			justify-content: 	center;
+			border: 			30px;
+			border-radius: 		2em;
+            position: relative;
+
+		}
+
+        .caja__trasera{
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            backdrop-filter: blur(0px);/*Desenfoque*/
+            background-color: hsl(179, 100%, 82%, 0.4);/*Primeros 3 números son el color el rgb y el 0.4 es la opacidad del color*/
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .caja__trasera div{
+            margin: 100px 40px; /*Primer n[umero para separar del botton y top, segundo para separar entre ellos*/
+            color: black;
+        }
+        
+        
+        .caja__trasera div p,
+        .caja__trasera button{
+            margin-top: 30px;
+        }
+        
+        .caja__trasera div h3{
+            font-weight: 600; /*Grosor o espesor del color de la letra*/
+            font-size: 26px;
+        }
+        
+        .caja__trasera div p{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .caja__trasera button, .estilo{
+            padding: 10px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            background: transparent;
+            font-weight: 600;
+            cursor: pointer; /*Para que sepamos que podemos hacer click*/
+            color: black;
+            outline: none; /*Para eliminar la l[inea de color que se le hace al intentar presionarlo*/
+            transition: all 300ms;
+        }
+        .caja__trasera button:hover, .estilo:hover{
+            background: #000000;
+            color: #FFFFFF;
+        }
+
+        #container_login, 
+        #container_signUp,
+        #container_olvidoContra{
+
+			display: 			inline-block;
+			height: 			410px;
+			width: 				100%;
+            max-width:          350px;
+			margin-left:        45%;
+			font-size: 			15px; 
+			text-align: 		center;
+			border-radius:		50% 20% / 10% 40%;
+            backdrop-filter:    blur(0px);/*Desenfoque*/
+            background-color: 	#bafdfc;
+            font-weight:        700;
+
+		}
+
+        #container_signUp{
+            display: none;
+        }
+
+        #container_LoginUp{
+            display: none;
+        }
+
+        #container_login form input,
+        #container_signUp form input{
+            padding:            10px;
+            outline:            none; /*Para quitar como antes el borde que se le hace al intentar*/
+            margin-top:         5px;
+		}
